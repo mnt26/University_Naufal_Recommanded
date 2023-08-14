@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kuliah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300&family=Roboto+Serif:opsz,wght@8..144,300&family=Rubik+Dirt&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/logo.png"></a>
+            <div class="nav_link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Progams For 2023</h1>
+    </section>
+
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="assets/certificate.jpg">
+                <h2>Our Certificate & Online Progams For 2023</h2>
+                <p>Step into the future of education through our immersive and dynamic Certificate & Online Programs for the year 2023. Designed to meet the evolving needs of learners in an increasingly digital landscape, our programs offer a rich tapestry of knowledge and skill development that you can weave into the fabric of your personal and professional growth.</p>
+                <br>
+                <p>Whether you're a career-driven individual seeking to upskill, a curious mind eager to explore new horizons, or someone simply passionate about continuous learning, our offerings cater to a spectrum of aspirations. From the convenience of your own space, you'll engage with top-tier instructors, connect with a global community of like-minded learners, and access a treasure trove of resources that empower you to thrive in an ever-changing world.</p>
+                <br>
+                <p>Immerse yourself in meticulously crafted modules that blend theory with practical application, allowing you to grasp complex concepts while honing real-world abilities. Participate in thought-provoking discussions, collaborate on innovative projects, and emerge not only with a well-deserved certificate but also with the confidence to navigate challenges and seize opportunities.</p>
+                <br>
+                <p>In a world where knowledge is the key to unlocking success, our Certificate & Online Programs serve as your gateway to unlocking doors, igniting passions, and cultivating a mindset of lifelong learning. Join us as we embrace the transformative potential of education and embark on a journey that transcends physical boundaries, connecting minds and ambitions across the digital realm.</p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Commant</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Busines Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Sciene</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Computer Seciene</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>AutoCad</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalis</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Commence</span>
+                    <span>16</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>please contact us via below for more info and other questions and registration is open there.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Muhammad Naufal Trisliawan</p>
+    </section>
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
